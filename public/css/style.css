@@ -1,0 +1,27 @@
+#wrapper {
+    width: 66%;
+    margin: auto;
+}
+
+#header {
+    background-color: lightgray;
+}
+
+#nav {
+
+}
+
+ul {
+    padding-top: 20px;
+    background-color: #ade;
+    display: block;
+}
+
+li {
+    color:white;
+    text-align:center;
+    display:inline;
+    padding:5px 10px 0 10px;
+    margin-right:2px;
+    background-color: #69a;
+}
