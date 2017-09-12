@@ -1,14 +1,19 @@
-#wrapper {
-    width: 66%;
-    margin: auto;
-}
-
 #header {
+    padding: 10px;
     background-color: lightgray;
 }
 
 #nav {
 
+}
+
+.wrapper {
+    width: 66%;
+    margin: auto;
+}
+
+.button {
+    text-decoration: none;
 }
 
 ul {
@@ -21,7 +26,7 @@ li {
     color:white;
     text-align:center;
     display:inline;
-    padding:5px 10px 0 10px;
+    padding:10px;
     margin-right:2px;
     background-color: #69a;
 }
