@@ -16,13 +16,13 @@
     text-decoration: none;
 }
 
-ul {
+ul.nav {
     padding-top: 20px;
     background-color: #ade;
     display: block;
 }
 
-li {
+.nav li {
     color:white;
     text-align:center;
     display:inline;
