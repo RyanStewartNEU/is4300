@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'sinatra'
+require 'sinatra/reloader'
 require 'haml'
 
 get '/' do
@@ -13,4 +14,3 @@ end
 get '/project5' do
   haml :'project5/index'
 end
-
