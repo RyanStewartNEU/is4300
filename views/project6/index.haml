@@ -1,0 +1,38 @@
+%link(rel="shortcut icon" href="Unity/p6/TemplateData/favicon.ico")
+%link(rel="stylesheet" href="Unity/p6/TemplateData/style.css")
+%script(src="Unity/p6/TemplateData/UnityProgress.js")
+%script(src="Unity/p6/Build/UnityLoader.js")
+:javascript
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Unity/p6/Build/PetGame.json", {onProgress: UnityProgress});
+%h1 Critter Keeper
+%h2 Project Checkin #6
+
+%h4 Overview
+%p
+  Critter Keeper is a game about caring for a new pet blob. We are studying the
+  interface design of the game as part of our class for Human-Computer
+  Interaction with Professor Sprague. Any issues you may have throughout the
+  test are the game’s fault and not your own. Use of this software is
+  completely optional and you are free to stop at any point.
+  %br
+  %br
+  This software is distributed "AS IS" and the developers provide no warranty
+  for this software. By downloading this software, the user agrees to hold
+  harmless and indemnify the designers for the content therein. All other
+  rights reserved.
+
+%h4 Play in Browser! (It may take a few seconds to load)
+%div
+  #gameContainer(style="width: 960px; height: 600px")
+    .footer
+      .webgl-logo
+      .fullscreen(onclick="gameInstance.SetFullscreen(1)")
+      .title Creature Keeper
+
+%h4 User Tasks
+%p If you test our game, please try to do the following!
+%ol
+  %li Pet your Critter!
+  %li Buy Pet Food for your Critter!
+  %li Give your Critter Pet Food!
+  

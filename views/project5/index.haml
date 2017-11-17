@@ -1,9 +1,9 @@
-%link(rel="shortcut icon" href="Unity/TemplateData/favicon.ico")
-%link(rel="stylesheet" href="Unity/TemplateData/style.css")
-%script(src="Unity/TemplateData/UnityProgress.js")
-%script(src="Unity/Build/UnityLoader.js")
+%link(rel="shortcut icon" href="Unity/p5/TemplateData/favicon.ico")
+%link(rel="stylesheet" href="Unity/p5/TemplateData/style.css")
+%script(src="Unity/p5/TemplateData/UnityProgress.js")
+%script(src="Unity/p5/Build/UnityLoader.js")
 :javascript
-  var gameInstance = UnityLoader.instantiate("gameContainer", "Unity/Build/PetGame.json", {onProgress: UnityProgress});
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Unity/p5/Build/PetGame.json", {onProgress: UnityProgress});
 %h1 Critter Keeper
 %h2 Project Checkin #5
 
@@ -21,13 +21,6 @@
   harmless and indemnify the designers for the content therein. All other
   rights reserved.
 
-%h4 User Tasks
-%p If you test our game, please try to do the following!
-%ol
-  %li Pet your Critter!
-  %li Buy Pet Food for your Critter!
-  %li Give your Critter Pet Food!
-
 %h4 Play in Browser! (It may take a few seconds to load)
 %div
   #gameContainer(style="width: 960px; height: 600px")
@@ -35,6 +28,14 @@
       .webgl-logo
       .fullscreen(onclick="gameInstance.SetFullscreen(1)")
       .title Creature Keeper
+
+
+%h4 User Tasks
+%p If you test our game, please try to do the following!
+%ol
+  %li Pet your Critter!
+  %li Buy Pet Food for your Critter!
+  %li Give your Critter Pet Food!
 
 %h4 Project Team
 %ul(style='list-style-type: none;')
