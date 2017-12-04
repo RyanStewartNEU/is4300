@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "PetGame.data.unityweb",
+"asmCodeUrl": "PetGame.asm.code.unityweb",
+"asmMemoryUrl": "PetGame.asm.memory.unityweb",
+"asmFrameworkUrl": "PetGame.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}

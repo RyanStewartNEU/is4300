@@ -18,3 +18,7 @@ end
 get '/project6' do
   haml :'project6/index'
 end
+
+get '/project7' do
+  haml :'project7/index'
+end
